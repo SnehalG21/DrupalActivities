@@ -1,0 +1,7 @@
+batch_example.change_name:
+  path: '/change'
+  defaults:
+    _controller: 'Drupal\batch_example\Controller\ChangeName::change'
+    _title: 'Batch example'
+  requirements:
+    _permission: 'access content'
